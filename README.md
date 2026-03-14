@@ -9,11 +9,12 @@
 3.  **`alphapurify.Database`** — for reading, writing, and aggregating financial and factor datasets.
 4.  **`alphapurify.Exposures`** — for factor correlation analysis and factor-based return attribution.
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install alphapurify
 
+---
 
 ## Quick Start: You merely just need a Dataframe!
 
