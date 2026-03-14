@@ -1,6 +1,6 @@
 # AlphaPurify: Factor analytics for quants
 
-**AlphaPurify** provides a fully modular, vectorized, and multiprocessing-enabled framework for factor cleaning, evaluation, exposure decomposition, and portfolio attribution based on factors.
+**AlphaPurify** Python library for financial data aggregation, factor construction, IC testing, factor return attribution, full-pipeline backtesting, and large-scale experimentation to help quants rapidly validate ideas.
 
 ---
 
