@@ -19,13 +19,64 @@
 
 ##  Quick Start
 
-### Install with pip
+### 1.Install with pip
 Users can easily install ``AlphaPurify`` by pip according to the following command.
 
 ```bash
 pip install alphapurify
 ```
 **Note**: pip will install the latest stable ``AlphaPurify``. However, the main branch of qlib is in active development. If you want to test the latest scripts or functions in the main branch. Please install ``AlphaPurify`` with clone.
+
+---
+
+## 2.Load your DataFrame
+| datetime           | symbol | open  | high  | low   | close | volume | factor |
+|--------------------|--------|------|------|------|------|--------|--------|
+| 2024-01-01 09:30   | AAPL   | 189.2 | 190.1 | 188.7 | 189.9 | 120034 | 0.42 |
+| 2024-01-01 09:31   | AAPL   | 189.9 | 190.3 | 189.5 | 190.0 | 98321  | 0.38 |
+| 2024-01-01 09:32   | AAPL   | 190.0 | 190.6 | 189.8 | 190.4 | 101245 | 0.41 |
+| 2024-01-01 09:30   | MSFT   | 378.1 | 379.0 | 377.6 | 378.5 | 84211  | -0.15 |
+| 2024-01-01 09:31   | MSFT   | 378.5 | 379.2 | 378.0 | 378.9 | 90122  | -0.12 |
+| 2024-01-01 09:32   | MSFT   | 378.9 | 379.5 | 378.4 | 379.1 | 95433  | -0.08 |
+
+---
+
+## 3.Creating reports
+```bash
+
+df = (
+    AlphaPurifier(df, factor_col="alpha")
+    .winsorize(method="mad")
+    .standardize(method="zscore")
+    .to_result()
+)
+
+FA = FactorAnalyzer(base_df=df,
+                    trade_date_col='datetime',
+                    symbol_col='code',
+                    price_col='close',
+                    factor_name='alpha_003')
+FA.run()
+FA.create_long_return_sheet()
+FA.create_long_short_return_sheet()
+FA.create_short_return_sheet()
+FA.create_single_fac_ic_sheet()
+
+Ex = Pure_Exposures(
+    base_df=df,
+    trade_date_col='datetime',
+    symbol_col='code',
+    price_col='close',
+    factor_name='alpha_003',
+    exposure_cols=['momentum_12_1', 'vol_60', 'beta_252'],
+)
+
+Ex.run()
+Ex.plot_pure_exposures()
+Ex.plot_pure_returns()
+Ex.plot_pure_exposures_and_returns()
+Ex.plot_correlations()
+```
 
 ---
 
@@ -46,14 +97,3 @@ pip install alphapurify
 
 from alphapurify import AlphaPurifier, FactorAnalyzer
 
-# Load your DataFrame
-df = ...
-
-# Clean factor
-cleaned = (
-    AlphaPurifier(df, factor_col="alpha")
-    .winsorize(method="mad")
-    .neutralize(neutralizer_cols=["size", "industry"])
-    .standardize(method="zscore")
-    .to_result()
-)
