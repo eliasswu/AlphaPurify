@@ -47,7 +47,7 @@ from alphapurify import AlphaPurifier, FactorAnalyzer, Pure_Exposures
 
 # preprocess
 df = (
-    AlphaPurifier(df, factor_col="alpha")
+    AlphaPurifier(df, factor_col="alpha_003")
     .winsorize(method="mad")
     .standardize(method="zscore")
     .to_result()
@@ -85,18 +85,9 @@ Ex.plot_correlations()
 ---
 
 ## Exemples of Outputs
-
+Portforlio for long positions:
 ![IC](assets/newplot2.png)
 ![IC2](assets/newplot3.png)
 ![IC2](assets/newplot4.png)
 ![IC2](assets/newplot5.png)
-
-
-
-
-
-
-## 📊 Example Workflow
-
-from alphapurify import AlphaPurifier, FactorAnalyzer
 
