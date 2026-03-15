@@ -32,8 +32,7 @@ pip install alphapurify
 ## Exemples of Outputs
 
 ![IC](assets/newplot.png1)
-![IC](assets/newplot.png2)
-![IC](assets/newplot.png5)
+![IC2](assets/newplot.png2)
 
 
 
