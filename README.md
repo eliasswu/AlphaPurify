@@ -17,14 +17,16 @@
 
 ---
 
-## Factor Performance
-
-![IC](assets/newplot.png)
-
 ## Installation
 
 ```bash
 pip install alphapurify
+
+---
+
+## Factor Performance
+
+![IC](assets/newplot.png)
 
 ---
 
