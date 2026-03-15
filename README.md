@@ -28,7 +28,6 @@ AlphaPurify is designed with optimized caching, vectorized computation, and mult
 
 For example, a **15-year daily dataset of the CSI 300 universe** can complete full factor evaluation — including **long-only, long-short, short portfolios and IC analysis** — in **around 30 seconds** on a typical laptop.
 
----
 
 **• Adaptive to arbitrary bar frequency**
 
@@ -37,21 +36,17 @@ Return aggregation automatically adapts to the data frequency, while allowing us
 
 The framework is carefully designed to **strictly prevent look-ahead bias**.
 
----
 
 **• Professional factor preprocessing toolkit**
 
 AlphaPurify provides **40+ built-in preprocessing methods** for factor research, including common operations such as:
 
-- winsorization  
+- winsorization
+- neutralization
 - standardization  
-- normalization  
-- outlier treatment  
-- transformation utilities  
+ 
 
 This allows researchers to rapidly experiment with different factor cleaning pipelines.
-
----
 
 **• Lightweight high-performance data backend**
 
