@@ -25,7 +25,7 @@ Users can easily install ``AlphaPurify`` by pip according to the following comma
 ```bash
 pip install alphapurify
 ```
-**Note**: pip will install the latest stable ``AlphaPurify``. However, the main branch of qlib is in active development. If you want to test the latest scripts or functions in the main branch. Please install ``AlphaPurify`` with clone.
+**Note**: pip will install the latest stable ``AlphaPurify``. However, the main branch of AlphaPurify is in active development. If you want to test the latest scripts or functions in the main branch. Please install ``AlphaPurify`` with clone.
 
 ---
 
@@ -43,6 +43,8 @@ pip install alphapurify
 
 ### 3.Creating reports
 ```bash
+from alphapurify import AlphaPurifier, FactorAnalyzer, Pure_Exposures
+
 # preprocess
 df = (
     AlphaPurifier(df, factor_col="alpha")
