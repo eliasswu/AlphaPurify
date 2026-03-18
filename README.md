@@ -139,7 +139,6 @@ Ex.plot_correlations()
 
 ---
 
-## P.S.
 More detailed documentation and examples will be released soon.
 
 Leave me a feedback after using it please!
