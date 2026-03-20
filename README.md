@@ -37,6 +37,13 @@
 | Setup Complexity | ⭐ Very Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟡 Medium |
 | Data Backend Support | ✅ Parquet + DuckDB | ⚠️ Custom infra | ❌ None | ❌ None | ❌ None | ❌ None |
 
+AlphaPurify goes beyond libraries like QuantStats and Pyfolio, which primarily focus on analyzing return curves and portfolio performance. Instead of only evaluating results, AlphaPurify operates at the **factor research level**, covering the full pipeline from preprocessing and IC analysis to portfolio construction and return attribution.
+
+Compared to tools like Qlib and Backtrader, AlphaPurify is designed for **lightweight, single-machine research**, eliminating heavy infrastructure and complex setup. Its **one-DataFrame workflow** enables users to move from raw factor data to backtest results seamlessly.
+
+In short, AlphaPurify bridges the gap between **factor analysis (Alphalens)** and **performance analytics (QuantStats/Pyfolio)**, while adding native support for **factor-driven backtesting and attribution** in a unified framework.
+
+
 ---
 
 ##  Quick Start
@@ -118,40 +125,6 @@ Ex.plot_correlations()
 
 ---
 
-## Why AlphaPurify?
-
-For whole pipeline backtesting of your factors,**you merely just need a Dataframe!**
-
-**• Optimized for single-machine research**
- 
-AlphaPurify is designed with optimized caching, vectorized computation, and multiprocessing wherever possible.
-
-For example, a **15-year daily dataset of the CSI 300 universe** can complete full factor evaluation — including **long-only, long-short, short portfolios and IC analysis** — in **around 30 seconds** on a typical laptop.
-
-
-**• Adaptive to arbitrary bar frequency**
-
-AlphaPurify works with **any bar frequency** (daily, hourly, minute-level, etc.).  
-Return aggregation automatically adapts to the data frequency, while allowing users to explicitly specify the horizon if needed.
-
-**• Professional factor preprocessing toolkit**
-
-AlphaPurify provides **40+ built-in preprocessing methods** for factor research, including common operations such as:
-
-- winsorize
-- neutralize
-- standardize
- 
-
-This allows researchers to rapidly experiment with different factor cleaning pipelines.
-
-**• Lightweight high-performance data backend**
-
-AlphaPurify integrates a fast **Parquet + DuckDB** data layer for factor storage and aggregation.
-
-This avoids the need for configuring complex database systems while still providing **high-performance querying and fast factor construction workflows**.
-
----
 
 More detailed documentation and examples will be released soon.
 
