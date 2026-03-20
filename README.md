@@ -36,10 +36,10 @@
 | Setup Complexity | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
 | Data Backend Support | ✅ Parquet + DuckDB | ⚠️ Custom infra | ❌ None | ❌ None | ❌ None | ❌ None |
 
-While ``AlphaPurify`` may look similar to ``Alphalens`` at first glance, it goes far beyond IC analysis and simple graphs.
-It natively supports long, short, and long-short rebalancing backtests, factor cleaning, atributions and delivers a new generation of interactive visualizations by Plotly.
+While ``AlphaPurify`` may look similar to ``Alphalens``, it goes far beyond IC analysis and simple graphs.
+It supports long, short, and long-short rebalancing backtests, factor cleaning, atributions and delivers a new generation of interactive visualizations by Plotly.
 
-``AlphaPurify`` is different from libraries like ``QuantStats`` and ``Pyfolio``, which primarily focus on analyzing return curves and portfolio performance. Compared to tools like ``Qlib`` and ``Backtrader``, ``AlphaPurify`` directly provides a lightweight, fast factor-driven rebalancing backtesting framework — eliminating the need for users to build custom pipelines or infrastructure in these libraries.
+``AlphaPurify`` is different from libraries like ``QuantStats`` and ``Pyfolio``, which primarily focus on analyzing return curves and portfolio performance, not backtests. Compared to tools like ``Qlib`` and ``Backtrader``, ``AlphaPurify`` directly provides a lightweight, fast factor-driven rebalancing backtesting framework — eliminating the need for users to build custom pipelines or infrastructure in these libraries.
 
 In short, ``AlphaPurify`` provide quants with a whole factor testing pipeline and beautiful interactive reports to rapidly validate ideas.
 
