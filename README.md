@@ -28,8 +28,7 @@
 Compared with traditional factor research tools, **You merely just need a Dataframe**.
 
 **• Optimized for single-machine research**
-
-Many independent researchers work on a single laptop where memory overflow and slow computation are common issues.  
+ 
 AlphaPurify is designed with optimized caching, vectorized computation, and multiprocessing wherever possible.
 
 For example, a **15-year daily dataset of the CSI 300 universe** can complete full factor evaluation — including **long-only, long-short, short portfolios and IC analysis** — in **around 30 seconds** on a typical laptop.
@@ -39,9 +38,6 @@ For example, a **15-year daily dataset of the CSI 300 universe** can complete fu
 
 AlphaPurify works with **any bar frequency** (daily, hourly, minute-level, etc.).  
 Return aggregation automatically adapts to the data frequency, while allowing users to explicitly specify the horizon if needed.
-
-The framework is carefully designed to **strictly prevent look-ahead bias**.
-
 
 **• Professional factor preprocessing toolkit**
 
