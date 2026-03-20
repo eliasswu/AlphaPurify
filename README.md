@@ -27,7 +27,7 @@
 
 | Feature / Library | AlphaPurify | Qlib | Backtrader | Alphalens | QuantStats | Pyfolio |
 |:------------------|:------------|:--------|:------------|:------------|:-------------|:-------------|
-| Running Speed | 🚀 Very Fast (vectorized + multiprocessing) | ❌ Slow (heavy infrastructure) | ⚠️ Medium | ✅ Fast | (analysis only) | (analysis only) |
+| Computation Speed | 🚀 Very Fast (vectorized + multiprocessing) | ❌ Slow (heavy infrastructure) | ⚠️ Medium | ✅ Fast | (analysis only) | (analysis only) |
 | Factor Preprocessing (40+) | ✅ Built-in | ⚠️ Limited | ❌ No | ❌ No | ❌ No | ❌ No |
 | IC Analysis | ✅ Native | ✅ Yes | ❌ No | ✅Yes | ❌ No | ❌ No |
 | Long / Short / Long-Short Rebalancing Quantile Backtest | ✅ Native | ⚠️ Indirect | ⚠️ Indirect | ❌ No | ❌ No | ❌ No |
