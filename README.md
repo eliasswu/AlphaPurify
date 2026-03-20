@@ -49,7 +49,7 @@ pip install alphapurify
 
 ---
 
-### 3.Creating reports
+### 3.Creating backtesting report
 ```bash
 from alphapurify import AlphaPurifier, FactorAnalyzer, Pure_Exposures
 
@@ -92,7 +92,7 @@ Ex.plot_correlations()
 
 ---
 
-## Examples of Backtesting
+## Examples of Backtesting Reports
 ### Portfolio for long positions only:
 ![IC](assets/newplot2.png)
 ### Contributions of other factors:
