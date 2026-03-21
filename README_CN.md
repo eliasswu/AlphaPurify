@@ -1,4 +1,4 @@
-
+![IC](assets/logo.jpg)
 <p align="center">
   <a href="https://pypi.python.org/pypi/alphapurify">
     <img src="https://img.shields.io/badge/python-3.10+-blue.svg?style=flat">
