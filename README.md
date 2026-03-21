@@ -7,7 +7,7 @@
 
 ---
 
-中文README: !(README中文)
+### 中文README: !(README_CN.md)
 # AlphaPurify: Factor research for quants
 
 **AlphaPurify** Python library for factor construction, preprocessing, backtesting, and factor return attributions to help quants rapidly validate ideas.
