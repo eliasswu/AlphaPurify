@@ -1,16 +1,29 @@
-[![Python version](https://img.shields.io/badge/python-3.10+-blue.svg?style=flat)](https://pypi.python.org/pypi/alphapurify)
-[![PyPi version](https://img.shields.io/pypi/v/alphapurify.svg?maxAge=60)](https://pypi.python.org/pypi/alphapurify)
-[![PyPi status](https://img.shields.io/pypi/status/alphapurify.svg?maxAge=60)](https://pypi.python.org/pypi/alphapurify)
-[![License](https://img.shields.io/pypi/l/alphapurify)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20windows%20%7C%20macos-lightgrey)](https://pypi.org/project/alphapurify/#files)
+
+<p align="center">
+  <a href="https://pypi.python.org/pypi/alphapurify">
+    <img src="https://img.shields.io/badge/python-3.10+-blue.svg?style=flat">
+  </a>
+  <a href="https://pypi.python.org/pypi/alphapurify">
+    <img src="https://img.shields.io/pypi/v/alphapurify.svg?maxAge=60">
+  </a>
+  <a href="https://pypi.python.org/pypi/alphapurify">
+    <img src="https://img.shields.io/pypi/status/alphapurify.svg?maxAge=60">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/pypi/l/alphapurify">
+  </a>
+  <a href="https://pypi.org/project/alphapurify/#files">
+    <img src="https://img.shields.io/badge/platform-linux%20%7C%20windows%20%7C%20macos-lightgrey">
+  </a>
+</p>
+
+<p align="center">
+  中文 README：<a href="README_CN.md">README_CN.md</a>
+</p>
 
 # AlphaPurify：面向量化研究员的因子分析库
 
 **AlphaPurify** 库用于因子构建、因子预处理、因子回测和因子收益率归因，帮助量化研究员快速验证想法。
-
----
-
-![IC](assets/logo.jpg)
 
 ---
 
