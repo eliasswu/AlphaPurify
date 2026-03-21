@@ -58,7 +58,7 @@ pip install alphapurify
 ---
 
 ### 2.Load your DataFrame
-| datetime           | symbol | close | volume | factor | momentum_12_1 | vol_60 | beta_252 |
+| datetime           | symbol | close | volume | alpha_003 | momentum_12_1 | vol_60 | beta_252 |
 |:-------------------|:------|------:|------:|------:|--------------:|------:|--------:|
 | 2024-01-01 09:30   | AAPL  | 189.9 | 120034 | 0.42 | 0.15 | 0.21 | 1.08 |
 | 2024-01-01 09:31   | AAPL  | 190.0 | 98321  | 0.38 | 0.16 | 0.22 | 1.07 |
@@ -73,7 +73,7 @@ pip install alphapurify
 
 ### 3.Creating backtesting reports
 ```bash
-from alphapurify import AlphaPurifier, FactorAnalyzer, Pure_Exposures
+from alphapurify import AlphaPurifier, FactorAnalyzer, 
 
 # preprocess
 df = (
@@ -96,7 +96,7 @@ FA.create_short_return_sheet()
 FA.create_single_fac_ic_sheet()
 
 #contributions of other factors
-Ex = Pure_Exposures(
+Ex = PureExposures(
     base_df=df,
     trade_date_col='datetime',
     symbol_col='symbol',
