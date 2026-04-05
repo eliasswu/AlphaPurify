@@ -44,8 +44,6 @@
 ### ①Database → ②Factor Construction → ③AlphaPurifier Cleaning 
 ### → ④FactorAnalyzer Backtest → ⑤Exposures → ⑥Confirmation → ⑦Database 🔁
 
-### P.S. For the entire research pipeline, basically, you only need a single DataFrame!
-
 --- 
 
 ## Full Documents & Examples: **[English Docs](./examples)**
