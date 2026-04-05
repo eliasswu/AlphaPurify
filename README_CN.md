@@ -42,7 +42,7 @@
 ## Pipeline Overview
 
 ### ①Database.get() → ②Factor Construction → ③AlphaPurifier Cleaning 
-### → ④FactorAnalyzer Backtest → ⑤Exposures → ⑥Confirmation → ⑦Database.save()🔁
+### → ④FactorAnalyzer Backtest → ⑤Exposures → ⑥Confirmation → ⑦Database.save() 🔁
 
 ---
 
