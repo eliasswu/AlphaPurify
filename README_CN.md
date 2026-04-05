@@ -40,6 +40,19 @@
 ---
 
 ## Pipeline Overview
+### ① Database.get()
+###        ↓
+### ② Factor Construction
+###        ↓
+### ③ AlphaPurifier 清洗
+###        ↓
+### ④ FactorAnalyzer 回测
+###        ↓
+### ⑤ Exposures 归因分析
+###        ↓
+### ⑥ Confirmation 确认
+###        ↓
+### ⑦ Database.save() ↺ 循环
 
 ---
 
