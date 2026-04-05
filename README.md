@@ -44,7 +44,8 @@
 ### ①Database → ②Factor Construction → ③AlphaPurifier Cleaning 
 ### → ④FactorAnalyzer Backtest → ⑤Exposures → ⑥Confirmation → ⑦Database 🔁
 
-### Step-by-step Examples: **[English Examples](./examples)**
+
+### Full Docs & Examples: **[English Docs](./examples)**
 
 ---
 
