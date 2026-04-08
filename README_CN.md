@@ -40,7 +40,7 @@
 ---
 
 ## Pipeline Overview
-
+![Pipeline](assets/pipeline.jpg)
 ---
 
 ### 完整文档及示例: **[English docs](./examples)**
