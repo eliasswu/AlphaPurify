@@ -40,7 +40,7 @@
 ---
 
 ## Pipeline Overview
-
+![Pipeline](assets/pipeline.jpg)
 
 ---
 
