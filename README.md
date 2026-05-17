@@ -38,7 +38,7 @@
 
 ---
 
-## 4 Main Modules:
+## ``AlphaPurify`` has 4 Main Modules:
 
   1.**`alphapurify.FactorAnalyzer`** — for IC/ Rank IC testing and Long/ Short/ Long-Short quantile backtests.
 
