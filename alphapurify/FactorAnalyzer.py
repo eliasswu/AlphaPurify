@@ -30,7 +30,7 @@ class ResearchConfig:
 @dataclass
 class AnalysisConfig:
     rank_ic: bool = False
-    log_scale: bool = True
+    log_scale: bool = False
     agg_freq: str | None = None
     group_by: dict | None = None
     max_workers: int = -1
