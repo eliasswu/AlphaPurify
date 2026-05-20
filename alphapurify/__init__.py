@@ -42,7 +42,7 @@ Main Features:
   winsorization, neutralization, and standardization methods (40+ techniques)
   for institutional-grade factor cleaning.
 """
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from .AlphaPurifier import AlphaPurifier
 from .Database import DataBase
