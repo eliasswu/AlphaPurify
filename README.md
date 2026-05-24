@@ -152,8 +152,8 @@ Ex.plot_correlations()
 
 ## Examples of Backtesting Reports
 ### Portfolio for long positions only:
-![IC](assets/newplot2.png)
-### Rank IC Sheet:
+![P](assets/newplot2.png)
+### IC Analysis:
 ![RankIC](assets/newplot6.png)
 ### Return attributions of other factors:
 ![IC2](assets/newplot3.png)
