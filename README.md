@@ -61,16 +61,17 @@
 ---
 
 ## AlphaPurify vs Other Quant Libraries
-
+Cross-sectional Snapshot
 | Feature / Library | AlphaPurify | Qlib | Backtrader | Alphalens | QuantStats | Pyfolio |
 |:------------------|:------------|:--------|:------------|:------------|:-------------|:-------------|
 | Computation Speed | 🚀 Extremely Fast (Rust vectorized + multiprocessing) | ❌ Slow (heavy infrastructure) | ⚠️ Medium | ✅ Fast | no backtest | no backtest |
 | Factor Preprocessing (40+) | ✅ Built-in | ⚠️ Limited | ❌ No | ❌ No | ❌ No | ❌ No |
+| Cross-sectional Snapshot | ✅ Native | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
+ Setup Complexity | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
 | IC Analysis | ✅ Native | ✅ Yes | ❌ No | ✅Yes | ❌ No | ❌ No |
 | Long / Short / Long-Short Rebalancing Quantile Backtest | ✅ Native | ✅ Yes | ⚠️ Indirect | ❌ No | ❌ No | ❌ No |
 | Factor Return Attribution | ✅ Native | ⚠️ Indirect | ❌ No | ❌ No | ❌ No | ❌ No |
 | Multi-Frequency Support | ✅ Any (microsecond → yearly) | ⚠️ Limited | ⚠️ Mostly daily | ⚠️ Mostly daily | ⚠️ Limited | ⚠️ Limited |
-| Setup Complexity | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
 | Coupling | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
 
 While ``AlphaPurify`` may look similar to ``Alphalens``, it goes far beyond IC analysis and simple graphs.
