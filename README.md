@@ -55,7 +55,7 @@
 
 ### - 40+ Preprocessing Methods — Built-in professional factor cleaning tools supporting workflows from ultra high-frequency to low-frequency data.
 
-### - Flexible Horizons — Supports unlimited rebalance periods and IC lookback windows simultaneously for rich multi-dimensional factor analysis.
+### - 1:1 Production-Grade Backtesting — Fully vectorized modeling of transaction fees, slippage, rebalancing, and dynamic weight drift to ensure reliable and rigorous backtest results.
 
 ---
 
