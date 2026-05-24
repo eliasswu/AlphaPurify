@@ -167,6 +167,7 @@ Empowering you to visually track weight transitions and asset returns at ANY tim
 
 ```bash
 FA.trace("Q",'2012-10-08 00:00:00',position="l",bins=[1])
+```
 ---
 
 ![cross](assets/newplot7.png)
