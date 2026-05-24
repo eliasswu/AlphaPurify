@@ -71,7 +71,7 @@
 | Factor Return Attribution | ✅ Native | ⚠️ Indirect | ❌ No | ❌ No | ❌ No | ❌ No |
 | Multi-Frequency Support | ✅ Any (microsecond → yearly) | ⚠️ Limited | ⚠️ Mostly daily | ⚠️ Mostly daily | ⚠️ Limited | ⚠️ Limited |
 | Setup Complexity | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
-| Data Backend Support | ✅ Parquet + DuckDB | ⚠️ Custom infra | ❌ None | ❌ None | ❌ None | ❌ None |
+| Coupling | 🟢 Low | 🔴 High | 🟡 Medium | 🟢 Low | 🟢 Low | 🟢 Low |
 
 While ``AlphaPurify`` may look similar to ``Alphalens``, it goes far beyond IC analysis and simple graphs.
 It supports long, short, and long-short rebalancing backtests, factor cleaning, atributions and delivers a new generation of interactive visualizations by Plotly.
