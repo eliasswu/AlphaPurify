@@ -4013,7 +4013,7 @@ class FactorAnalyzer():
                 if d in rebalance_dates:
                     self.add_subtitle(
                         fig,
-                        f"Weight Changes (Date = {d}, bin = {bin}, Rebalance = Ture)",
+                        f"Weight Changes (Date = {d}, bin = {bin}, Rebalance = True)",
                         row
                     )
             
