@@ -57,6 +57,7 @@
 
 ### - 1:1 Production-Grade Backtesting — Fully vectorized modeling of transaction fees, slippage, rebalancing, and dynamic weight drift to ensure reliable and rigorous backtest results.
 
+### - White-Box Backtesting — Empowering you to visually track weight transitions and asset returns at ANY timestamp, for ANY position direction, and within ANY quantile bin.
 ---
 
 ## AlphaPurify vs Other Quant Libraries
