@@ -167,7 +167,7 @@ Ex.plot_correlations()
 ```bash
 #For example, if you want to see the situation of the first bin for quarterly rebalancing of long positions on 2012-10-08
 
-FA.trace("Q",'2012-10-08 00:00:00',position="l",bins=[1])
+FA.trace("Q",'2012-09-28 00:00:00',position="l",bins=[1])
 ```
 ---
 
