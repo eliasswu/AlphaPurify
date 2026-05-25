@@ -146,15 +146,26 @@ Ex.plot_correlations()
 ---
 
 ## 回测报告示例
-### 仅限多头头寸的回测组合：
+### 仅限多头头寸的回测组合:
 ![IC](assets/newplot2.png)
+### IC Analysis:
+![RankIC](assets/newplot6.png)
 ### 因子值和收益率的归因分析:
 ![IC2](assets/newplot3.png)
 ![IC2](assets/newplot4.png)
-![IC2](assets/newplot5.png)
 
 ---
 
+## What's NEW!💖 — FactorAnalyzer.trace( )
+### 4. 截面快照：直接提供持仓最细颗粒度的报告！可以在任意时间截面、针对任意持仓方向、在任意分箱，观测因子投资组合的权重，收益率和调仓明细！
+
+```bash
+#举个例子，假设您想了解 2012 年 9 月 28 日当天，季度重新平衡的多头头寸在第一个分组中的实际状态
+
+FA.trace("Q",'2012-09-28 00:00:00',position="l",bins=[1])
+```
+
+---
 ### 如果你喜欢``AlphaPurify``， 请为这个项目star并fork以支持开发！
 
 ---
