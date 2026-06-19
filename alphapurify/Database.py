@@ -329,7 +329,7 @@ class DataBase():
             SELECT {selected_features}
             FROM read_parquet([{file_list}]) 
             WHERE {self.trade_date_col} >= '{begin_date}' 
-            AND datetime <= '{self.end_date}'
+            AND {self.trade_date_col} <= '{self.end_date}'
             """
         
             df_all = con.execute(query).pl()
