@@ -11,7 +11,7 @@ import pandas as pd
 import scipy.stats as stats
 
 from dataclasses import dataclass
-
+@dataclass
 class ResearchConfig:
     rebalance_periods: tuple[int | str] = ("W","M","Q")
     return_horizons: tuple[int] = (1,5,10)
