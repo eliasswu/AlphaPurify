@@ -1440,7 +1440,7 @@ class FactorAnalyzer():
                 industry_ic = (
                     df.group_by([self.trade_date_col, "industry"])
                     .agg(
-                        pl.corr(self.factor_name, "fut_ret", method="spearman").alias("industry_ic"),
+                        pl.corr(self.factor_name, "fut_ret", method="pearson").alias("industry_ic"),
                         pl.count().alias("n_stocks")
                     )
                     .drop_nans()
@@ -1466,7 +1466,7 @@ class FactorAnalyzer():
                 industry_contrib = pl.DataFrame()
                 
             df = (df.group_by(self.trade_date_col)
-                .agg(pl.corr(self.factor_name, "fut_ret", method="spearman").alias("ic"))
+                .agg(pl.corr(self.factor_name, "fut_ret", method="pearson").alias("ic"))
                 .sort(self.trade_date_col)).drop_nans()
             
             if self.overnight == "off" or self.overnight == "only":
